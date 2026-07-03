@@ -1,0 +1,124 @@
+/* লগইন ফর্মের স্টাইল */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.login-form {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 380px;
+    text-align: center;
+}
+
+.login-form h2 {
+    color: #2d3436;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.login-form p {
+    color: #636e72;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #dfe6e9;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+
+.input-box input:focus {
+    border-color: #00b894;
+    box-shadow: 0 0 8px rgba(0, 184, 148, 0.2);
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background: #00b894;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    background: #019477;
+    transform: translateY(-2px);
+}
+
+.form-footer {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.form-footer a {
+    color: #00b894;
+    text-decoration: none;
+}
+
+.form-footer a:hover {
+    text-decoration: underline;
+}
+
+.form-footer span {
+    margin: 0 10px;
+    color: #b2bec3;
+}
+
+
+.pass-container{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+
+}
+
+.forgert-form{
+   background: #79c7d1;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 380px;
+    text-align: center;
+}
+
+.submit-btn{
+    width: 70%;
+    padding: 10px;
+    background: #99a1a5;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.submit-btn:hover{
+     background: #7a7f80;
+    transform: translateY(-2px);
+}
+
